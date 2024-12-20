@@ -1,0 +1,2 @@
+use import to deploy a contract
+Use advance selective import to import one trontract into file. Don't import the entire contract.
