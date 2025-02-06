@@ -1,0 +1,11 @@
+I chose this project initially casue I was in a hurry and thought it'd be easeier to plan in my head. It wasn't. Obviously my design and planning skills could use some work. But in the end, I'm glad I chose it. I leanred a lot about the concepts of safe and working applications from working on this. Lots of ceoncepts and errors I made earlier on, some I could change and some I had to build around. I saw the important of designing and planning and most importantly organizing.
+
+learned a lot of error handling
+
+Next time, I would definitely try to keey all components and functions as separate to allow easier read of code and also allows you add new functionalities easier.
+
+Learned to not only comment code but to be as descriptive with comments
+
+should have used typescript
+
+organize api functions from other functions

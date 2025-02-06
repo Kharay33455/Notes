@@ -1,0 +1,48 @@
+1. What's an MAC?
+2. IP addressess are stored in ___ bits binary numbers. 
+3. What is the use of the internet protocol?
+4. An IP consist of ___ parts, namely the ______ and _______. Explain both parts.
+5. Convert 11000000101010001000100000011100 to dotted notation.
+6.How do you differentiate between class A, B and C ip addresses?
+7.How many octnet determines the Network ID and Host Id of a class A, B and C adress?
+8. WHat is an IPV6 adress?
+9. What is subnetting and why is it important?
+10. WHat is a subnet?
+11. What is a subnet mask?
+12. What is the minimum and maximum number of digits a network ID can have?
+13. List the 9 possible values of an octnet
+14. Differentiate between private and public addressed.
+15. Explain Network Address Translation?
+16. What is DHCP?
+17. What's it used for?
+18. What is a scope in DHCP?
+19. DIfferentiate between exclusion and reservation?
+20. What is the default lease days for DCHP amd why shouldn't you make this indefinite?
+21. WHat is DNS?
+22. How are domain stores and organized?
+
+
+
+
+1. Media Access control
+2. 32
+3. To allow communication between networks
+4. 2, network ID and Host ID. Network Id is the id of the network, the host id is the computer in that network that owns that ip adress.
+5. 192.168.136.28
+6. Class A IP Adresses start with 0. Class B with 10, and class C with 110.
+7. Class A: First octnet is Network ID and the 3 is host. class is 2 octnet for network and 2 octnet for host. class c. 3 octent for network and 1 for host.
+8. An IPV6 adress is an ip address of the internet protocol version 6. It uses 128 bits instead of 32 bits to make available more ip adresses.
+9. Subnetting is a way of defining IP addresses with different number of bits to represent the network ID even if they're not included in the usual IP class.
+10. A subnet is a network that falls within another network. It's network ID is determined the base network Id and the next 4 bits.
+11. A subnet mask is a 32 bit number that is used to calculate the network Id an IP belongns to.
+12. Minimum is 8 bits starting with 255.x.y.z and the maximum is 30 bits. The last 2 bits allow 3 IP to be made 00, 01,  10 and 11. 00 is the network id. 01 is the broadcasting ID. 10 and 11 are the only available ports in this instance. A network must have space for at least 2 hosts.
+13. 00000000, 10000000, 11000000, 11100000, 11110000, 11111000, 11111100, 11111110, 11111111
+14. A private adress is the IP address of your computer on a local network. The public address is it's address on the internet.
+15. NAT is a way of communicating with the internet for many host on a network in such a way that all the hosts are revognixed by one IP. The router address. Requests before being sent off to servers change the IP from that of the original host to that of the router before communicating. WHen a reponse comes back, the NAT changes the IP in it's response from the router IP back to the host ID before finally forwarding it to the host.    
+16. Dynamic Host Configuration Protocol
+17. It is used to manage and allocate IP to the hosts that join the network automatically.  
+18. A scope is a range of IP a DHCP server is allowed to allocate IP addresses from.
+19. Exclusion is when an IP address or a scope of IP addresses is removed from the DCHP pool. IE the server is not alloWEd to assign then. Reservation on the other hand is when an IP address is removed from the pool and reserved fo a partivular computer to ensure that on connection, they would always connect to the same IP address.
+20. DCHP lasts 8 days. AT half the lease time, the computer can retry to renew it's lease before expiry. YOU shouldn't make it indefinite because then IP might still be kept for computers that are no longer on the network.
+21. Domain Namaing System is a way of describing computer IP and lcoation in human readable language.
+22. Domains are stored in hierachy like folders the ways folders are stored on a pc. The folder is the root domain and the folders within it are the subdomains of that root domain. Subdomains can also have subdomains of their own and so forth.
