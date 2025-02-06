@@ -1,0 +1,73 @@
+1. What is the Ethernet?
+2. List and explain the 3 basic networking topologies
+3. What is a router and it's most basic function.
+4. 2 other uses of a router. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. The Ethernet is the standardizeed way for connecting computers together today.
+2.  The Bus: Moves data along a single line has a start and end. On break  in cable disrupts the entire system.
+    The Ring: Moves data in a circle. Has no start or end. An endless loop of computers all connected together in a circle. A break disrupts system
+    The Star: In this method, a central hub / switch is the source of the network connection all client hosts draw from it. A break doesnt affect other computers unless the central hub itself goes down.
+3.  A router is a device that is capable of passing information between two or more networks. It most basic function is to pass information             between a local network and the internet.
+4.  Filter information and decide shortest path to msot effective delivery.
