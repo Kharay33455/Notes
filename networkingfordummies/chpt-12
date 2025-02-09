@@ -1,0 +1,19 @@
+1.  DIfference between local user accounts and dsomain user accounts?
+2.  WHat is a logon script?
+3.  WHat is a group?
+4.  How do you get the current user's username via a script?
+
+
+
+
+
+
+
+
+
+
+
+1.  A locl account is an account tha works on a pc, while a domain account is an account that works from any pc on a network.
+2.  A log on script is a script that runs when a user connects to a network. It is typically used to map drives.
+3.  A group is a collection of users or other groups represented as one account. It helps when miultiple users need to have the same properties.
+4.  Using the %username% command

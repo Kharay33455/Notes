@@ -1,0 +1,121 @@
+1.  What is a wireless network?
+2.  Define the following in context of wireless networking:
+    WLAN
+    WiFi
+    SSID
+    Channels
+    Ad-hoc
+    Infastructure Mode
+3. What are waves?
+4. Explain the difference between frequency and wavelength of a radio wave and the correlation between them.
+5. What is a spectrum?
+6. What is a bandwidth?
+7. WHat is a band?
+8. What is the IEEE 802.11 standards?
+9. WHat is a wireless network adapter?
+10. Two alternatives for connection without having a wireless network adapter? 
+11. WHat is a WAP?
+12. What are APs?
+13. How do you set up a WAP?
+14. What is an infacstructure mode network?
+15. WHat is a Basic Service Set?
+16. What is a Service Set Identifier (SSID)?
+17. What is roaming?
+18. Explain Wireless bridging
+19. Explain Ad-Hoc connection
+20. Differentiatew between IBSS, ESS, and BSS.
+21. How do you configure a wireless access point?
+22. How to get the deafult gateway of an acces point.
+23. What does it mean to be a network spoiler?
+24. What is a rouge access point?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.  It is a network that uses radio signals to transmit data instead of cables
+2.  WLAN: Wireless Local Area Network
+    WiFi: A wireless connection
+    SSID: Service Set Identifier
+    Channels: A path for wireless connections to transmit data. Wireless connections can be transmited over various channels but for 2 computers to talk to each other, they must be on the same channel
+    Ad-hoc: A group of wireless adapters forming a connection to each other
+    Infastructure Mode: When a group of computers are not only connected by wireless connections but hae some sort of physical cable system too making it an hybrid of cables and radio signal connection.
+3. Waves are electronagnetic radiation that travell at the speed of light and can be picked up by radios. The carry data. EG: picture, vidow, sounds, network packets.
+4. The wavelength of a eave is the distance it covers in one cycle while its frequency is how many cycles it can complete in a sec.
+Increase in frequency leads to decrease in wavelength and decrease in antenna size needed to translate the signal.
+5. A spectrum is a range of bands in which a radio signal can travel too. 
+6. A bandwith is the differncer between the highest band and the lowest band of a spoectrum. It determines how much data can flow and where data can flow. Narrower bandwidth would process slower than a wide one or a broadband.
+7. A band is a small portion of the radio spectrum that has been sewt aside for its own designated purpose. EG: AM, FM,  Television, Satellite TV, Cellular network. etc
+8. The IEE 802 standards are set of rules that have been set in place to regulate the navigation of network bands.
+9. It is  a component in the device used to connect to a newtwork.
+10. A PCI adapter can be installed manually or you can get a USB adapter stick. 
+11. A Wireless Access Point is a hub that all wireeless devices on a network can join. The wap thenconnects all devices physically to the network switch via a cablee.
+12. Acess Pont is another way to call Wireless Access Point. Nothing speial.
+13. You configure it and connect all wireless adapters to it and thn you connect the wap to the wired network via a network cable.
+14. Infastructure mode netwoek is a network of systems that has both wired connections and wireless connections in it. It has it's WAP hosted physucally and an Infastructure.
+15. A Basic Serviice Set is a group of computers connected to via network. They all share the same SSID. 
+16. A service set identifier is an ID used to identify a network and all computers associated with it.
+17. Roaming is when ultiple APs are configured to run with the same SSID in the same channel. So that when a user using a connection to an AP moves out of range of the AP, It can be picked up by another AP having the same SSID and mainting it's connection and IP address seamlessly.
+18. Wireless bridging is when multiple services far apart connect their APs through channels so they can commmunicate as on big network.
+19. Ad-hoc connection is one that doesnt require a router. Here, users connect to each other directly via their network adapters.
+20. IBSS stans for Independent Basic Service Set. It is established when a BSS is formed without a router(AD-hoc connections). ESS stands for Extended service set. It is formed when multiple WAPs connect to form a wireless bridge while BSS stands for Basic Service Set and it is just a group of computers sharing one AP.
+21. You buy a router and turn it on, you can set up extra configurations using its web interface they all come with via the default gatewway.
+22.  run ipconfig from the terminal of a connected computer.
+23. a spoiler is someone who floods a network with so ucb useless traffic in a bid to bring it down.
+24. A rouge access point is a router AP that has been connected to the Network either by a malicous user or a user who just wants to access their router from within the network.

@@ -1,0 +1,20 @@
+1.  What is a file server?
+2.  What is a storage appliance?
+3.  What is an ACL?
+4.  Explain permissions.
+5.  What is a share?
+
+
+
+
+
+
+
+
+
+
+1. A file server is a computer server whose job on a network is to server files to other hosts.
+2. A storage application a configured application specifically designed to server as a Network Attached Storage device.
+3. An ACL is a list of permissions and the users hwo have them. It is short for Access Control List.
+4.  Permissions are access given to group or users that control how thry csn affect files.
+5.  A share is a folder that is available on not just a host but over the entire network.

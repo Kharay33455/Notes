@@ -1,0 +1,65 @@
+1.  Explain the Hardware Abstraction Layer.
+2.  Explain an Hypervisor.
+3.  What is the major difference between a type1 hypervisor and a type2 hypervisor
+4. What is RAID?
+5. Differentiate between RAID-10 and RAID-5?
+6. Explain the forms in which storage can be connected to a host system.
+7. Differentiate betrween a data store and a volume
+8. What is a virtual switch?
+9. Difference between vhd and vhdx?
+10. Difference bwteen fixed sized virtual disk and dynamic virtual disks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.  The hardware abstraction layer is the software that allows software interract with various hardwares in a system without understanding how it was implemented.
+2.  A Hypervisor is the software in charge of setting up a new virtual machine.
+3.  A type1 hypervisor is bare metal and comes with the hardware. A type2 hypeervisor is installed as an applicaiton.
+4.  Redundant Array of Inexpensive Disk is a way of combining multiple hard disks to form one usually for saftey.
+5.  In Raid-10, data is stored in the disk as mirrors.  EG: combining 4 2TB disks to form 1 8TB disk thay can only store 4GB worth of info cause info is stored twice so when one partiion fails, another can take over... Raid-5 stores data but keeps one drive for redundacy, SO our example now has 4 2TB drives. If set up in RAID-5, we can store 3 drives worth of data. IE 6TB and save one drive for redundacy incase any of the other drives fail.
+6. Local storage: Physically available
+   Storage Area Network: A drive that is available to multiple hosts on a network
+    Network Attched Storage: A drive available over the internet.
+7.  A data store is a pool of storage formed from multiple data disks combiined to form a RAID while a volume is a section cut out of said data store.
+8.  A virtual switch is a usual network switch but for virtual machines. The connect the virtual machine to the host system.
+9. they are both formats to store virtual memory. A vhd cannot store more than 2TB of data while a vhdx can store up tp 64TB of data.
+10. A fixed virtual disk takes up the allocated space from a host PC regardless of if the space is in use or not while a dynamic virtual disk only takes up the part it needs to take to store thr data it currently has to store.
